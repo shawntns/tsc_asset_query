@@ -51,5 +51,1218 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "0"
-
-
+---
+name: 组件_tomcat_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "39446"
+---
+name: 组件_tomcat_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(tomcat\d+-\d\..+)|(Apache Tomcat \d.+)"
+---
+name: 组件_tomcat_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(bin/tomcat)|(bin\tomcat)|(tomcat\d+.exe)"
+---
+name: 组件_tomcat_custom
+filters:
+ - "id": "pluginName"
+   "filterName": "pluginName"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "Custom Asset Discovery Tomcat"
+ - "id: "severity"
+   "filterName": "severity"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "0"
+---
+name: 组件_fastjson_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "fastjson"
+---
+name: 组件_fastjson_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "fastjson-\d.+jar"
+---
+name: 组件_fastjson_custom
+filters:
+ - "id": "pluginName"
+   "filterName": "pluginName"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "Custom Asset Discovery Fastjson"
+ - "id: "severity"
+   "filterName": "severity"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "0"
+---
+name: 组件_nginx_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "106375,124336"
+---
+name: 组件_nginx_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "nginx"
+---
+name: 组件_nginx_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(nginx)|(\/sbin\/nginx)|(nginx.exe)"
+---
+name: 组件_nginx_custom
+filters:
+ - "id": "pluginName"
+   "filterName": "pluginName"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "Custom Asset Discovery Nginx"
+ - "id: "severity"
+   "filterName": "severity"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "0"
+---
+name: 组件_apache_http_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "48204"
+---
+name: 组件_apache_http_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(\shttpd-\d.+)|(Apache HTTP Server \d.+)"
+---
+name: 组件_apache_http_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "bin/httpd|pache [Hh][Tt][Tt][Pp]"
+---
+name: 组件_apache_http_custom
+filters:
+ - "id": "pluginName"
+   "filterName": "pluginName"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "Custom Asset Discovery Apache"
+ - "id: "severity"
+   "filterName": "severity"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "0"
+---
+name: 组件_struts2_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "73943,99671"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "struts2"
+---
+name: 组件_struts2_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "struts2"
+---
+name: 组件_struts2_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "struts2"
+---
+name: 组件_redis_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "100635"
+---
+name: 组件_redis_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(redis-\d.+)|(\sredis-\d.+)|(Redis on)"
+---
+name: 组件_redis_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "redis-server"
+---
+name: 组件_redis_custom
+filters:
+ - "id": "pluginName"
+   "filterName": "pluginName"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "Custom Asset Discovery Redis"
+ - "id: "severity"
+   "filterName": "severity"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "0"
+---
+name: 组件_php_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "48243,10107,11229,57323,48204"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "php"
+---
+name: 组件_php_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "php-\d.+"
+---
+name: 组件_php_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "php"
+---
+name: 组件_php_custom
+filters:
+ - "id": "pluginName"
+   "filterName": "pluginName"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "Custom Asset Discovery PHP"
+ - "id: "severity"
+   "filterName": "severity"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "0"
+---
+name: 组件_sql_server_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "10144,10674,11217,64784,69482,108409"
+---
+name: 组件_sql_server_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "sql server 2"
+---
+name: 组件_sql_server_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "34252,44401,70329"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "sqlservr"
+---
+name: 组件_VMware_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "26200,20301,57396,63061"
+---
+name: 组件_elasticsearch_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "109941"
+---
+name: 组件_elasticsearch_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "elasticsearch"
+---
+name: 组件_elasticsearch_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "elasticsearch"
+---
+name: 组件_shellshock(bash)_standard
+filters:
+ - "id": "cveID"
+   "filterName": "cveID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "CVE-2014-6278,CVE-2014-7187,CVE-2014-7186,CVE-2014-6277,CVE-2014-7169,CVE-2014-6271"
+---
+name: 组件_shellshock(bash)_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "bash-\d+"
+---
+name: 组件_shellshock(bash)_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "bash"
+---
+name: 组件_citrix_netscaler_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "29222,73204,118087"
+---
+name: 组件_citrix_xenserver_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "74327,76770,58209,58749,58809"
+---
+name: 组件_f5_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "30215,30216,73948,73949,76332,76940,95387"
+---
+name: 组件_mysql_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "10719,46815,52053,57558,129468,130626,130627"
+---
+name: 组件_mysql_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(mysql-\d.+)|(MySQL Server \d.+)|(mariadb-\d.+)|(mariadb-server)"
+---
+name: 组件_mysql_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "mysqld"
+---
+name: 组件_webmin_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "10757"
+---
+name: 组件_smtp_server_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "10263,18528,108659"
+---
+name: 组件_smtp_server_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "smtp"
+---
+name: 组件_ibm_domino_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "27855,55818,59852"
+---
+name: 组件_ssh_server_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "10267,110293"
+---
+name: 组件_ssh_server_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(ssh-server)|(SSH Server)"
+---
+name: 组件_ssh_server_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(sshd)|([Ss][Ss][Hh] [Ss]erver)|([Ss][Ss][Hh][Ss]e)"
+---
+name: 组件_telnet_server_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "10280,10281"
+---
+name: 组件_telnet_server_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(telnet-server)|([Tt]elnet [Ss]erver)"
+---
+name: 组件_telnet_server_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "34252,44401,70329"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "tlntsvr.exe"
+---
+name: 组件_smb_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "97086,11011,25240,96982,100871,106716"
+---
+name: 组件_dns_server_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "11002,11951,34043,72779,72780,76798,87872"
+---
+name: 组件_dns_server_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(named)|(dns\.exe)"
+---
+name: 组件_mongodb_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "65914,65915"
+---
+name: 组件_mongodb_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "mongodb"
+---
+name: 组件_mongodb_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(mongod)|(mongo\.exe)|(MongoDB)"
+---
+name: 组件_memcache_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "67023,26197"
+---
+name: 组件_memcache_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "\smemcached-\d.+"
+---
+name: 组件_memcache_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(memcached.exe)|(bin/memcached)"
+---
+name: 组件_hadoop_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "50304,50305,50306,50307,117616"
+---
+name: 组件_hadoop_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "hadoop"
+---
+name: 组件_hadoop_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "hadoop"
+---
+name: 组件_iis_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "10107,11699"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "iis"
+---
+name: 组件_iis_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(iisrstas.exe)|(W3SVC)"
+---
+name: 组件_websphere_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "31411,57034,57708,70069,72644,92725"
+---
+name: 组件_websphere_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "websphere"
+---
+name: 组件_websphere_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "websphere"
+---
+name: 组件_jquery_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "106658"
+---
+name: 组件_jquery_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jquery"
+---
+name: 组件_jquery_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jquery"
+---
+name: 组件_jetty_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "10107"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jetty"
+---
+name: 组件_jetty_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jetty"
+---
+name: 组件_jetty_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jetty"
+---
+name: 组件_jenkins_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "65054,129098,130366,130595,130596"
+---
+name: 组件_jenkins_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jenkins"
+---
+name: 组件_jenkins_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jenkins"
+---
+name: 组件_jboss_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "66189,72202,91488,121516"
+---
+name: 组件_jboss_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237,71642"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jboss"
+---
+name: 组件_jboss_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jboss"
+---
+name: 组件_zabbix_server_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22526,35786"
+---
+name: 组件_zabbix_server_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "zabbix-\d"
+---
+name: 组件_zabbix_server_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "zabbix.server"
+---
+name: 组件_zabbix_agent_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "11153"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "zabbix agent"
+---
+name: 组件_zabbix_agent_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "zabbix.agent"
+---
+name: 组件_zabbix_agent_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "zabbix_agent"
+---
+name: 组件_rmi_registry_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22227"
+---
+name: 组件_fasterxml_jackson_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "111679"
+---
+name: 组件_fasterxml_jackson_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jackson"
+---
+name: 组件_fasterxml_jackson_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "jackson"
+---
+name: 组件_harbor_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "129979,130456"
+---
+name: 组件_harbor_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "harbor"
