@@ -12,7 +12,7 @@
 
 * 标准探测`(*_standard)`：通过Nessus标准资产Plugin
 
-  + 注意：扫描方式不限于远程扫描、登录扫描或agent扫描
+  * 注意：扫描方式不限于远程扫描、登录扫描或agent扫描
 
 * 安装枚举`(*_install)`：通过Nessus标准安装枚举Plugin
 
