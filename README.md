@@ -6,18 +6,19 @@
 
 所以思路是将资产查询规则进行序列化处理（目前是yaml格式)，放到到github中以便community之间分享。
 
-## 名词定义
+## 定义
 
 综合使用下列4类Nessus Plugin以实现资产发现的全面性。
 
-1. 标准探测:通过Nessus标准资产Plugin
-    - 注意：扫描方式上，不限于远程扫描、登录扫描或agent扫描
+* 标准探测`(*_standard)`：通过Nessus标准资产Plugin
 
-2. 安装枚举：通过Nessus标准安装枚举Plugin
+  + 注意：扫描方式不限于远程扫描、登录扫描或agent扫描
 
-3. 进程枚举：通过Nessus标准进程枚举Plugin
+* 安装枚举`(*_install)`：通过Nessus标准安装枚举Plugin
 
-4. 自定义探测: 通过基于Custom Audit(aka. 自定义基线脚本)的自定义探测
+* 进程枚举`(*_process)`：通过Nessus标准进程枚举Plugin
+
+* 自定义探测`(*_custom)`: 通过基于Custom Audit(aka. 自定义基线脚本)的自定义探测
 
 ### 自定义探测脚本
 
