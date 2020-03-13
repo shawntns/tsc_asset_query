@@ -14,14 +14,15 @@
 
 
 ## 规则文件
-* [tenablesc_asset.yml](https://github.com/shawntns/tsc_asset_query/blob/master/tenablesc_asset.yml)
+* [tenablesc_asset.yml](tenablesc_asset.yml)
 
 ## 解析器
 将规则文件自动解析成 SC API query.
 
 ## 可视化示例
 
-![image] (https://github.com/shawntns/ns_custom_audit/blob/master/visual_sample.png)
+<img src="visual_sample.png" />
+
 
 ## Credits
 
