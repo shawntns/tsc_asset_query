@@ -14,3 +14,8 @@
 
 [传送门]:https://github.com/shawntns/ns_custom_audit/blob/master/asset_discovery.audit
 [项目地址]:https://github.com/shawntns/ns_custom_audit
+
+## Credits
+
+- HTSC Sec team
+- Yoyo
