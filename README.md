@@ -18,7 +18,7 @@
 
 * 进程枚举`(*_process)`：通过Nessus标准进程枚举Plugin
 
-* 自定义探测`(*_custom)`: 通过基于Custom Audit(aka. 自定义基线脚本)的自定义探测
+* 自定义探测`(*_custom)`: 通过基于Custom Audit(aka. 自定义基线脚本)的个性化探测Plugin
 
 ### 自定义探测脚本
 
