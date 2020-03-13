@@ -1,11 +1,17 @@
 # 资产查询规则库 for tenable.sc
 
+## Why this repository?
+
+原始诉求是解决tenable.sc查询规则庞杂，并时常作为局部或个人的knowledge，不易沟通和维护等问题。
+
+所以思路是将资产查询规则进行序列化处理（目前是.yml格式)，放到到 github上方便community之间分享。
+
 ## 名词定义
 
 综合使用下列4类Nessus Plugin以实现资产发现的全面性。
 
 1. 标准探测:通过Nessus标准资产Plugin
-    - 注意：扫描方式上，不限于remote、local或combine
+    - 注意：扫描方式上，不限于远程扫描、登录扫描或agent扫描
 
 2. 安装枚举：通过Nessus标准安装枚举Plugin
 
@@ -21,6 +27,10 @@
 
 
 ## 规则文件
+
+目前查询规则针对范围是综合多家国内企业安全团队所评出的 `The Most Vulnerable Assets`。以常见web中间件和服务为主。
+
+*陆续会加入更多资产规则*
 
 * [tsc_asset.yml](tsc_asset.yml)
 
