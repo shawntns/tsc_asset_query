@@ -9,8 +9,8 @@
 
 ### 自定义探测（Custom Audit）
 
-* 自定探测基线脚本[传送门]
-* Nessus Custom Audit [项目地址] (ns_custom_audit)
+* 自定探测基线脚本 [传送门]
+* Nessus Custom Audit [项目地址] 
 
 [传送门]:https://github.com/shawntns/ns_custom_audit/blob/master/asset_discovery.audit
-[项目地址] (https://github.com/shawntns/ns_custom_audit)
+[项目地址]:https://github.com/shawntns/ns_custom_audit
