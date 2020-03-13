@@ -2,10 +2,10 @@
 
 ## 名词定义
 
-* 标准探测：通过nessus标准资产plugin，不限于remote、local或combine
-* 安装枚举：通过nessus标准安装枚举plugin
-* 进程枚举：通过Nessus标准进程枚举plugin
-* 自定义探测: 通过基于Custom Audit(aka. 自定义基线脚本)的自定义探测
+1. *标准探测*:通过nessus标准资产plugin，不限于remote、local或combine
+2. *安装枚举*：通过nessus标准安装枚举plugin
+3. *进程枚举*：通过Nessus标准进程枚举plugin
+4. *自定义探测*: 通过基于Custom Audit(aka. 自定义基线脚本)的自定义探测
 
 ### 自定义探测脚本
 
@@ -17,7 +17,8 @@
 * [tenablesc_asset.yml](tenablesc_asset.yml)
 
 ## 解析器
-将规则文件自动解析成 SC API query.
+将规则文件自动解析成 SC API query。
+- [todo]
 
 ## 可视化示例
 
