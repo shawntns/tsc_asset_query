@@ -45,7 +45,7 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "Custom Asset Discovery WebLogic"
- - "id: "severity"
+ - "id": "severity"
    "filterName": "severity"
    "operator": "="
    "type": "vuln"
@@ -99,7 +99,7 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "Custom Asset Discovery Tomcat"
- - "id: "severity"
+ - "id": "severity"
    "filterName": "severity"
    "operator": "="
    "type": "vuln"
@@ -144,7 +144,7 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "Custom Asset Discovery Fastjson"
- - "id: "severity"
+ - "id": "severity"
    "filterName": "severity"
    "operator": "="
    "type": "vuln"
@@ -198,7 +198,7 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "Custom Asset Discovery Nginx"
- - "id: "severity"
+ - "id": "severity"
    "filterName": "severity"
    "operator": "="
    "type": "vuln"
@@ -252,7 +252,7 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "Custom Asset Discovery Apache"
- - "id: "severity"
+ - "id": "severity"
    "filterName": "severity"
    "operator": "="
    "type": "vuln"
@@ -351,7 +351,7 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "Custom Asset Discovery Redis"
- - "id: "severity"
+ - "id": "severity"
    "filterName": "severity"
    "operator": "="
    "type": "vuln"
@@ -411,7 +411,7 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "Custom Asset Discovery PHP"
- - "id: "severity"
+ - "id": "severity"
    "filterName": "severity"
    "operator": "="
    "type": "vuln"
