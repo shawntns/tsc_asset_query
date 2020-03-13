@@ -10,15 +10,15 @@
 
 综合使用下列4类Nessus Plugin以实现资产发现的全面性。
 
-* 标准探测`(*_standard)`：通过Nessus标准资产Plugin
+* 标准探测 (`*_standard`) - 基于Nessus标准资产Plugin
 
   * 注意：扫描方式不限于远程扫描、登录扫描或agent扫描
 
-* 安装枚举`(*_install)`：通过Nessus标准安装枚举Plugin
+* 安装枚举 (`*_install`) - 基于Nessus标准安装枚举Plugin
 
-* 进程枚举`(*_process)`：通过Nessus标准进程枚举Plugin
+* 进程枚举 (`*_process`) - 基于Nessus标准进程枚举Plugin
 
-* 自定义探测`(*_custom)`: 通过基于Custom Audit(aka. 自定义基线脚本)的个性化探测Plugin
+* 自定义探测 (`*_custom`) - 基于Custom Audit(aka. 自定义基线脚本)的个性化探测Plugin
 
 ### 自定义探测脚本
 
