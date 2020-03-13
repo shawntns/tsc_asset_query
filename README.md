@@ -37,5 +37,5 @@
 - HTSC Sec team
 - Yoyo
 
-[点击下载]:https://github.com/shawntns/ns_custom_audit/blob/master/asset_discovery.audit
+[点击下载]:https://raw.githubusercontent.com/shawntns/ns_custom_audit/master/asset_discovery.audit
 [项目传送门]:https://github.com/shawntns/ns_custom_audit
