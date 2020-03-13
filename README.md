@@ -7,9 +7,9 @@
 * 进程枚举：通过Nessus标准进程枚举plugin
 * 自定义探测: 通过基于Custom Audit(aka. 自定义基线脚本)的自定义探测
 
-### 自定义探测（Custom Audit）
+### 自定义探测脚本
 
-* 自定探测基线脚本 [传送门]
+* 自定探测基线脚本（Custom Audit File） [传送门]
 * Nessus Custom Audit [项目地址] 
 
 [传送门]:https://github.com/shawntns/ns_custom_audit/blob/master/asset_discovery.audit
