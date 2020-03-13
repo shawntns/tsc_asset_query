@@ -9,19 +9,21 @@
 
 ### 自定义探测脚本
 
-* 自定探测基线脚本（Custom Audit File） [传送门]
-* Nessus Custom Audit [项目地址] 
+* 自定义探测基线脚本（Custom Audit File）[点击下载]
+* Nessus Custom Audit [项目传送门]
 
-[传送门]:https://github.com/shawntns/ns_custom_audit/blob/master/asset_discovery.audit
-[项目地址]:https://github.com/shawntns/ns_custom_audit
 
 ## 规则文件
-* [tenablesc_asset.yml]()
+* [tenablesc_asset.yml](https://github.com/shawntns/tsc_asset_query/blob/master/tenablesc_asset.yml)
 
 ## 解析器
-balabala
+将规则文件自动解析成 SC API query.
+
 
 ## Credits
 
 - HTSC Sec team
 - Yoyo
+
+[点击下载]:https://github.com/shawntns/ns_custom_audit/blob/master/asset_discovery.audit
+[项目传送门]:https://github.com/shawntns/ns_custom_audit
