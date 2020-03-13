@@ -40,8 +40,7 @@
 
 ## 可视化示例
 
-<img src="visual_sample.png" />
-
+![可视化示例](visual_sample.png)
 
 ## Credits
 
