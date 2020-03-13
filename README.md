@@ -26,11 +26,9 @@
 
 * Nessus Custom Audit [项目传送门]
 
-
 ## 规则文件
 
 目前查询规则针对范围是综合多家国内企业安全团队所评出的 `The Most Vulnerable Assets`。以常见web中间件和服务为主。
-
 *陆续会加入更多资产规则*
 
 * [tsc_asset.yml](tsc_asset.yml)
