@@ -2,7 +2,7 @@
 
 ## Why this repository
 
-原始诉求是解决tenable.sc查询规则庞杂，并时常作为局部或个人的knowledge，不易沟通和维护等问题。
+原始诉求是解决tenable.sc查询规则庞杂，并时常作为局部或个人的knowledge，存在不易沟通、难维护等问题。
 
 所以思路是将资产查询规则进行序列化处理（目前是yaml格式)，放到到github中以便community之间分享。
 
@@ -29,13 +29,12 @@
 ## 规则文件
 
 目前查询规则针对范围是综合多家国内企业安全团队所评出的 `The Most Vulnerable Assets`。以常见web中间件和服务为主。
-*陆续会加入更多资产规则*
 
-* [tsc_asset.yml](tsc_asset.yml)
+* [tsc_asset.yml](tsc_asset.yml) -> *陆续会加入更多资产规则*
 
 ## 解析器
 
-将yaml规则文件自动解析成 SC API query。
+将以上yaml规则文件自动解析成 SC API query。
 
 * [tsc_yaml.py](tsc_yaml.py)
 
