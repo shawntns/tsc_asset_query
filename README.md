@@ -21,11 +21,14 @@
 
 
 ## 规则文件
+
 * [tenablesc_asset.yml](tenablesc_asset.yml)
 
 ## 解析器
+
 将规则文件自动解析成 SC API query。
-- [todo]
+
+* todo
 
 ## 可视化示例
 
@@ -34,8 +37,8 @@
 
 ## Credits
 
-- HTSC Sec team
-- Yoyo
+* HTSC Sec team
+* Yoyo
 
 [点击下载]:https://raw.githubusercontent.com/shawntns/ns_custom_audit/master/asset_discovery.audit
 [项目传送门]:https://github.com/shawntns/ns_custom_audit
