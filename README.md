@@ -22,13 +22,13 @@
 
 ## 规则文件
 
-* [tenablesc_asset.yml](tenablesc_asset.yml)
+* [tsc_asset.yml](tsc_asset.yml)
 
 ## 解析器
 
 将规则文件自动解析成 SC API query。
 
-* todo
+* [tsc_yaml.py](tsc_yaml.py)
 
 ## 可视化示例
 
