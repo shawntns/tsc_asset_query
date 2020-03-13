@@ -34,7 +34,7 @@
 
 ## 解析器
 
-将以上yaml规则文件自动解析成 SC API query。
+解析器被用来将以上yaml规则文件自动解析成 SC API query所需参数。
 
 * [tsc_yaml.py](tsc_yaml.py)
 
