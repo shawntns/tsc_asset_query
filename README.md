@@ -1,10 +1,10 @@
 # 资产查询规则库 for tenable.sc
 
-## Why this repository?
+## Why this repository
 
 原始诉求是解决tenable.sc查询规则庞杂，并时常作为局部或个人的knowledge，不易沟通和维护等问题。
 
-所以思路是将资产查询规则进行序列化处理（目前是.yml格式)，放到到 github上方便community之间分享。
+所以思路是将资产查询规则进行序列化处理（目前是yaml格式)，放到到github中以便community之间分享。
 
 ## 名词定义
 
