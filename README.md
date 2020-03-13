@@ -21,7 +21,7 @@
 
 ## 可视化示例
 
-[img] (https://github.com/shawntns/ns_custom_audit/blob/master/visual_sample.png)
+![iamge] (https://github.com/shawntns/ns_custom_audit/blob/master/visual_sample.png)
 
 ## Credits
 
