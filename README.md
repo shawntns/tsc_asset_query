@@ -38,6 +38,7 @@
 ## Credits
 
 * HTSC Sec team
+* 哈哈大侠
 * Yoyo
 
 [点击下载]:https://raw.githubusercontent.com/shawntns/ns_custom_audit/master/asset_discovery.audit
