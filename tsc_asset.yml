@@ -74,7 +74,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(tomcat\d+-\d\..+)|(Apache Tomcat \d.+)"
+   "value": "(tomcat\\d+-\\d\\..+)|(Apache Tomcat \\d.+)"
 ---
 name: 组件_tomcat_process
 filters:
@@ -89,7 +89,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(bin/tomcat)|(bin\tomcat)|(tomcat\d+.exe)"
+   "value": "(bin/tomcat)|(bin\tomcat)|(tomcat\\d+.exe)"
 ---
 name: 组件_tomcat_custom
 filters:
@@ -134,7 +134,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "fastjson-\d.+jar"
+   "value": "fastjson-\\d.+jar"
 ---
 name: 组件_fastjson_custom
 filters:
@@ -227,7 +227,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(\shttpd-\d.+)|(Apache HTTP Server \d.+)"
+   "value": "(\\shttpd-\\d.+)|(Apache HTTP Server \\d.+)"
 ---
 name: 组件_apache_http_process
 filters:
@@ -326,7 +326,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(redis-\d.+)|(\sredis-\d.+)|(Redis on)"
+   "value": "(redis-\\d.+)|(\\sredis-\\d.+)|(Redis on)"
 ---
 name: 组件_redis_process
 filters:
@@ -386,7 +386,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "php-\d.+"
+   "value": "php-\\d.+"
 ---
 name: 组件_php_process
 filters:
@@ -527,7 +527,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "bash-\d+"
+   "value": "bash-\\d+"
 ---
 name: 组件_shellshock(bash)_process
 filters:
@@ -593,7 +593,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(mysql-\d.+)|(MySQL Server \d.+)|(mariadb-\d.+)|(mariadb-server)"
+   "value": "(mysql-\\d.+)|(MySQL Server \\d.+)|(mariadb-\\d.+)|(mariadb-server)"
 ---
 name: 组件_mysql_process
 filters:
@@ -761,7 +761,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(named)|(dns\.exe)"
+   "value": "(named)|(dns\\.exe)"
 ---
 name: 组件_mongodb_standard
 filters:
@@ -800,7 +800,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(mongod)|(mongo\.exe)|(MongoDB)"
+   "value": "(mongod)|(mongo\\.exe)|(MongoDB)"
 ---
 name: 组件_memcache_standard
 filters:
@@ -824,7 +824,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "\smemcached-\d.+"
+   "value": "\\smemcached-\\d.+"
 ---
 name: 组件_memcache_process
 filters:
@@ -1133,7 +1133,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "zabbix-\d"
+   "value": "zabbix-\\d"
 ---
 name: 组件_zabbix_server_process
 filters:
