@@ -41,7 +41,7 @@
 ## Credits
 
 * HTSC Sec team
-* 哈哈大侠
+* hahadaxia
 * Yoyo
 
 [自定义基线脚本]:https://raw.githubusercontent.com/shawntns/ns_custom_audit/master/asset_discovery.audit
