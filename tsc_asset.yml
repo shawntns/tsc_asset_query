@@ -485,7 +485,7 @@ filters:
    "value": "22869,20811"
  - "id": "pluginText"
    "filterName": "pluginText"
-   "operator": "pcre"
+   "operator": "="
    "type": "vuln"
    "isPredefined": True
    "value": "elasticsearch"
