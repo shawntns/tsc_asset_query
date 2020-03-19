@@ -1266,3 +1266,210 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "harbor"
+---
+name: 组件_shiro_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "50600"
+---
+name: 组件_shiro_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(shiro-.+.jar)|(shiro-\d+)"
+---
+name: 组件_spring_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "123005,134042,134043,134044,134045,134046,134047,134048,134049,134050,134051,134052"
+---
+name: 组件_spring_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "spring-.+.jar"
+---
+name: 组件_spring_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "spring-.+.jar"
+---
+name: 组件_apache_dubbo_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "dubbo-.+.jar"
+---
+name: 组件_apache_dubbo_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "dubbo-.+.jar"
+---
+name: 组件_freemarker_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "freemarker-.+.jar"
+---
+name: 组件_freemarker_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "freemarker-.+.jar"
+---
+name: 组件_quartz_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "quartz-\d.+jar"
+---
+name: 组件_apache_axis_standard
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "46739"
+---
+name: 组件_apache_axis_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(axis\d.+.jar)|(axis.+.jar)|(axis\.jar)"
+---
+name: 组件_hibernate_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237,118238"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(hibernate-.*.jar)|(hibernate.jar)"
+---
+name: 组件_hibernate_process
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "25221,34252,44401,70329,110483"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "pcre"
+   "type": "vuln"
+   "isPredefined": True
+   "value": "(hibernate-.*.jar)|(hibernate.jar)"
+---
+name: 组件_apache_cas_install
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "22869,20811,118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "cas-server"
