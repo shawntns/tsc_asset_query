@@ -24,7 +24,7 @@
 
 ## 规则文件
 
-目前查询规则针对范围是综合多家国内企业安全团队所评出的 [__The Most Vulnerable Assets__](top%20vulnerable%20assets-v0.3.xlsx)，以常见web中间件和服务为主。
+目前查询规则针对范围是综合多家国内企业安全团队所评出的 [__The Most Vulnerable Assets__](top%20vulnerable%20assets.xlsx)，以常见web中间件和服务为主。
 
 * [tsc_asset.yml](tsc_asset.yml) -> *陆续会加入更多资产规则*
 
