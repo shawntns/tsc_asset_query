@@ -74,7 +74,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(tomcat\\d+-\\d\\..+)|(Apache Tomcat \\d.+)"
+   "value": "(tomcat-\\d+\\.\\d+\\.)|(Apache Tomcat \\d.+)"
 ---
 name: 组件_tomcat_process
 filters:
@@ -89,7 +89,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(bin/tomcat)|(bin\tomcat)|(tomcat\\d+.exe)"
+   "value": "(bin/tomcat)|(tomcat\\d+.exe)"
 ---
 name: 组件_tomcat_custom
 filters:
@@ -113,7 +113,7 @@ filters:
    "operator": "="
    "type": "vuln"
    "isPredefined": True
-   "value": "22869,20811,118237"
+   "value": "118237"
  - "id": "pluginText"
    "filterName": "pluginText"
    "operator": "="
@@ -134,7 +134,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "fastjson-\\d.+jar"
+   "value": "fastjson-\\d.+\\.jar"
 ---
 name: 组件_fastjson_custom
 filters:
@@ -188,7 +188,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(nginx)|(\/sbin\/nginx)|(nginx.exe)"
+   "value": "(nginx)|(/sbin/nginx)|(nginx.exe)"
 ---
 name: 组件_nginx_custom
 filters:
@@ -1289,7 +1289,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(shiro-.+.jar)|(shiro-\d+)"
+   "value": "(shiro-.+.jar)|(shiro-\\d+)"
 ---
 name: 组件_spring_standard
 filters:
@@ -1403,7 +1403,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "quartz-\d.+jar"
+   "value": "quartz-\\d.+jar"
 ---
 name: 组件_apache_axis_standard
 filters:
@@ -1427,7 +1427,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(axis\d.+.jar)|(axis.+.jar)|(axis\.jar)"
+   "value": "(axis\\d.+.jar)|(axis.+.jar)|(axis\\.jar)"
 ---
 name: 组件_hibernate_install
 filters:
@@ -1517,7 +1517,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "([Ss]alt [Mm]inion)|(salt-minion)|(salt\/minion)"
+   "value": "([Ss]alt [Mm]inion)|(salt-minion)|(salt/minion)"
 ---
 name: 组件_salt_minion_process
 filters:
@@ -1571,7 +1571,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "bin\/puppet master"
+   "value": "bin/puppet master"
 ---
 name: 组件_puppet_agent_install
 filters:
@@ -1586,7 +1586,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "([Pp]uppet.+\[version)|(puppet-\d)"
+   "value": "([Pp]uppet.+\\[version)|(puppet-\\d)"
 ---
 name: 组件_puppet_agent_process
 filters:
@@ -1601,4 +1601,4 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(bin\/puppet agent)|([Pp]uppet [Aa]gent)"
+   "value": "(bin/puppet agent)|([Pp]uppet [Aa]gent)"
