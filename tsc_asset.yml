@@ -7,21 +7,6 @@ filters:
    "isPredefined": True
    "value": "44315,56979,57793,73913,88087,109430,109431,109552,109553,121396"
 ---
-name: 组件_weblogic_install
-filters:
- - "id": "pluginID"
-   "filterName": "pluginID"
-   "operator": "="
-   "type": "vuln"
-   "isPredefined": True
-   "value": "77027,71642,71643,22869,20811,118237"
- - "id": "pluginText"
-   "filterName": "pluginText"
-   "operator": "pcre"
-   "type": "vuln"
-   "isPredefined": True
-   "value": "(WebLogic Platform)|(-Dweblogic.+)|(Oracle WebLogic)|([Ww]eb[Ll]ogic)"
----
 name: 组件_weblogic_process
 filters:
  - "id": "pluginID"
@@ -68,13 +53,28 @@ filters:
    "operator": "="
    "type": "vuln"
    "isPredefined": True
-   "value": "22869,20811,118237"
+   "value": "22869,20811"
  - "id": "pluginText"
    "filterName": "pluginText"
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
    "value": "(tomcat-\\d+\\.\\d+\\.)|(Apache Tomcat \\d.+)"
+---
+name: 组件_tomcat_JAR
+filters:
+ - "id": "pluginID"
+   "filterName": "pluginID"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "118237"
+ - "id": "pluginText"
+   "filterName": "pluginText"
+   "operator": "="
+   "type": "vuln"
+   "isPredefined": True
+   "value": "catalina.jar"
 ---
 name: 组件_tomcat_process
 filters:
@@ -89,7 +89,7 @@ filters:
    "operator": "pcre"
    "type": "vuln"
    "isPredefined": True
-   "value": "(bin/tomcat)|(tomcat\\d+.exe)"
+   "value": "catalina|(tomcat\\d+.exe)"
 ---
 name: 组件_tomcat_custom
 filters:
@@ -105,21 +105,6 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "0"
----
-name: 组件_fastjson_install
-filters:
- - "id": "pluginID"
-   "filterName": "pluginID"
-   "operator": "="
-   "type": "vuln"
-   "isPredefined": True
-   "value": "118237"
- - "id": "pluginText"
-   "filterName": "pluginText"
-   "operator": "="
-   "type": "vuln"
-   "isPredefined": True
-   "value": "fastjson"
 ---
 name: 组件_fastjson_process
 filters:
@@ -267,36 +252,6 @@ filters:
    "type": "vuln"
    "isPredefined": True
    "value": "73943,99671"
- - "id": "pluginText"
-   "filterName": "pluginText"
-   "operator": "="
-   "type": "vuln"
-   "isPredefined": True
-   "value": "struts2"
----
-name: 组件_struts2_install
-filters:
- - "id": "pluginID"
-   "filterName": "pluginID"
-   "operator": "="
-   "type": "vuln"
-   "isPredefined": True
-   "value": "22869,20811,118237"
- - "id": "pluginText"
-   "filterName": "pluginText"
-   "operator": "="
-   "type": "vuln"
-   "isPredefined": True
-   "value": "struts2"
----
-name: 组件_struts2_process
-filters:
- - "id": "pluginID"
-   "filterName": "pluginID"
-   "operator": "="
-   "type": "vuln"
-   "isPredefined": True
-   "value": "25221,34252,44401,70329,110483"
  - "id": "pluginText"
    "filterName": "pluginText"
    "operator": "="
