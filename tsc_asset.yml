@@ -17,10 +17,10 @@ filters:
    "value": "25221,34252,44401,70329,110483"
  - "id": "pluginText"
    "filterName": "pluginText"
-   "operator": "pcre"
+   "operator": "="
    "type": "vuln"
    "isPredefined": True
-   "value": "[Ww]eb[Ll]ogic|wls"
+   "value": "weblogic"
 ---
 name: 组件_weblogic_custom
 filters:
